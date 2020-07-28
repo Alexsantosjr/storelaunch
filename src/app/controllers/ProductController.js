@@ -31,6 +31,6 @@ module.exports = {
         results = await Category.all()
         const categories =  results.rows
 
-        return res.render("products/create.njk", {categories, productId})
+        return res.render("products/create.njk", {productId, categories})
     }
 }
