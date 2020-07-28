@@ -34,3 +34,5 @@ module.exports = {
         return res.render("products/create.njk", {productId, categories})
     }
 }
+
+//Concertar segundo salvamento de dados
